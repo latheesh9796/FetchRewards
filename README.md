@@ -15,8 +15,3 @@
 
 - Alamofire
     - Link - https://github.com/Alamofire/Alamofire
-
-### API
--------------
-
-- URL for API: https://fetch-hiring.s3.amazonaws.com/*******
