@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ListCollectionViewCell" id="gTV-IL-0wX" customClass="ListCollectionViewCell" customModule="Fetch_Rewards_Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPj-hc-PWq">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="List 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7h-sK-G8b">
+                                <rect key="frame" x="16" y="48" width="168" height="56.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="41"/>
+                                <color key="textColor" name="Orange"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24 items" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fm-NP-Laf">
+                                <rect key="frame" x="16" y="108.5" width="168" height="25"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
+                                <color key="textColor" name="Orange"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Extra Light Black"/>
+                        <constraints>
+                            <constraint firstItem="6fm-NP-Laf" firstAttribute="centerX" secondItem="g7h-sK-G8b" secondAttribute="centerX" id="3eS-08-x2s"/>
+                            <constraint firstAttribute="trailing" secondItem="6fm-NP-Laf" secondAttribute="trailing" constant="16" id="Ah5-dT-EXt"/>
+                            <constraint firstAttribute="width" secondItem="bPj-hc-PWq" secondAttribute="height" multiplier="1:1" id="LVV-HS-Dgv"/>
+                            <constraint firstItem="g7h-sK-G8b" firstAttribute="leading" secondItem="bPj-hc-PWq" secondAttribute="leading" constant="16" id="Pty-kk-lqR"/>
+                            <constraint firstItem="g7h-sK-G8b" firstAttribute="centerY" secondItem="bPj-hc-PWq" secondAttribute="centerY" constant="-24" id="gF1-D0-bYG"/>
+                            <constraint firstItem="6fm-NP-Laf" firstAttribute="top" secondItem="g7h-sK-G8b" secondAttribute="bottom" constant="4" id="jlX-D8-mDZ"/>
+                            <constraint firstAttribute="trailing" secondItem="g7h-sK-G8b" secondAttribute="trailing" constant="16" id="mfM-HT-oW5"/>
+                            <constraint firstItem="g7h-sK-G8b" firstAttribute="centerX" secondItem="bPj-hc-PWq" secondAttribute="centerX" id="wqW-qd-A1B"/>
+                            <constraint firstItem="6fm-NP-Laf" firstAttribute="leading" secondItem="bPj-hc-PWq" secondAttribute="leading" constant="16" id="xD0-CP-5uI"/>
+                            <constraint firstAttribute="width" constant="200" id="zhN-U4-85V"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="bPj-hc-PWq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="67H-Vt-TTA"/>
+                <constraint firstItem="bPj-hc-PWq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EeM-yV-OgV"/>
+                <constraint firstAttribute="trailing" secondItem="bPj-hc-PWq" secondAttribute="trailing" id="eDZ-H7-Bm2"/>
+                <constraint firstAttribute="bottom" secondItem="bPj-hc-PWq" secondAttribute="bottom" id="gFM-sN-wIk"/>
+            </constraints>
+            <size key="customSize" width="200" height="200"/>
+            <connections>
+                <outlet property="listCount" destination="6fm-NP-Laf" id="ypF-bz-C1O"/>
+                <outlet property="listName" destination="g7h-sK-G8b" id="l79-hu-i7N"/>
+                <outlet property="view" destination="bPj-hc-PWq" id="qjS-rc-VYI"/>
+                <outlet property="viewWidth" destination="zhN-U4-85V" id="Ncv-y9-FCG"/>
+            </connections>
+            <point key="canvasLocation" x="246.37681159420291" y="180.80357142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Extra Light Black">
+            <color red="0.13333333333333333" green="0.14117647058823529" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Orange">
+            <color red="0.99607843137254903" green="0.45098039215686275" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

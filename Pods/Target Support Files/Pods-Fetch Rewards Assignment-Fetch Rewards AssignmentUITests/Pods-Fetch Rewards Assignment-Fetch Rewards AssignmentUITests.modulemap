@@ -1,0 +1,6 @@
+framework module Pods_Fetch_Rewards_Assignment_Fetch_Rewards_AssignmentUITests {
+  umbrella header "Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A274A1A7A88CD1105C3F8D /* Pods_Fetch_Rewards_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F11C55B3498387BBF7BB28 /* Pods_Fetch_Rewards_Assignment.framework */; };
+		30630887257EC59A003B3A30 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30630886257EC59A003B3A30 /* ListViewModel.swift */; };
+		306308B2257EC745003B3A30 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306308B1257EC745003B3A30 /* Constants.swift */; };
+		30630932257ED9A3003B3A30 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30630931257ED9A3003B3A30 /* Item.swift */; };
+		30D8995D254942B6002F7EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8995C254942B6002F7EAC /* AppDelegate.swift */; };
+		30D8995F254942B6002F7EAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8995E254942B6002F7EAC /* SceneDelegate.swift */; };
+		30D89964254942B6002F7EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D89962254942B6002F7EAC /* Main.storyboard */; };
+		30D89966254942B8002F7EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D89965254942B8002F7EAC /* Assets.xcassets */; };
+		30D89969254942B8002F7EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D89967254942B8002F7EAC /* LaunchScreen.storyboard */; };
+		30D89974254942B9002F7EAC /* Fetch_Rewards_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D89973254942B9002F7EAC /* Fetch_Rewards_AssignmentTests.swift */; };
+		30D8997F254942B9002F7EAC /* Fetch_Rewards_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8997E254942B9002F7EAC /* Fetch_Rewards_AssignmentUITests.swift */; };
+		30D8998F254943F8002F7EAC /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8998D254943F8002F7EAC /* ListCollectionViewCell.swift */; };
+		30D89990254943F8002F7EAC /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D8998E254943F8002F7EAC /* ListCollectionViewCell.xib */; };
+		30D899972549462D002F7EAC /* ListDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D899952549462D002F7EAC /* ListDetailCollectionViewCell.swift */; };
+		30D899982549462D002F7EAC /* ListDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D899962549462D002F7EAC /* ListDetailCollectionViewCell.xib */; };
+		30D8999C2549483A002F7EAC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8999B2549483A002F7EAC /* ListViewController.swift */; };
+		30D8999E2549484C002F7EAC /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8999D2549484C002F7EAC /* ListDetailViewController.swift */; };
+		30D899A025494C61002F7EAC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D8999F25494C61002F7EAC /* SplashViewController.swift */; };
+		4C28EE343CBDCC1DDC6EAD21 /* Pods_Fetch_Rewards_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50C53CCC209AFAB89E03876 /* Pods_Fetch_Rewards_AssignmentTests.framework */; };
+		84857CE43B966E1746F31376 /* Pods_Fetch_Rewards_Assignment_Fetch_Rewards_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8338F5B50AA494EE5AC5BED8 /* Pods_Fetch_Rewards_Assignment_Fetch_Rewards_AssignmentUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30D89970254942B9002F7EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D89951254942B6002F7EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D89958254942B6002F7EAC;
+			remoteInfo = "Fetch Rewards Assignment";
+		};
+		30D8997B254942B9002F7EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D89951254942B6002F7EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D89958254942B6002F7EAC;
+			remoteInfo = "Fetch Rewards Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E370883965165752A1EF6F4 /* Pods-Fetch Rewards Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Rewards Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Fetch Rewards Assignment/Pods-Fetch Rewards Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		30630886257EC59A003B3A30 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		306308B1257EC745003B3A30 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30630931257ED9A3003B3A30 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		30D89959254942B6002F7EAC /* Fetch Rewards Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Rewards Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D8995C254942B6002F7EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30D8995E254942B6002F7EAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30D89963254942B6002F7EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30D89965254942B8002F7EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D89968254942B8002F7EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30D8996A254942B8002F7EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D8996F254942B9002F7EAC /* Fetch Rewards AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Rewards AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D89973254942B9002F7EAC /* Fetch_Rewards_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_AssignmentTests.swift; sourceTree = "<group>"; };
+		30D89975254942B9002F7EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D8997A254942B9002F7EAC /* Fetch Rewards AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Rewards AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D8997E254942B9002F7EAC /* Fetch_Rewards_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_AssignmentUITests.swift; sourceTree = "<group>"; };
+		30D89980254942B9002F7EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D8998D254943F8002F7EAC /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		30D8998E254943F8002F7EAC /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		30D899952549462D002F7EAC /* ListDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		30D899962549462D002F7EAC /* ListDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		30D8999B2549483A002F7EAC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		30D8999D2549484C002F7EAC /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		30D8999F25494C61002F7EAC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8338F5B50AA494EE5AC5BED8 /* Pods_Fetch_Rewards_Assignment_Fetch_Rewards_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fetch_Rewards_Assignment_Fetch_Rewards_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D00DAD8ED0FE867D79C0A0 /* Pods-Fetch Rewards Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Rewards Assignment.release.xcconfig"; path = "Target Support Files/Pods-Fetch Rewards Assignment/Pods-Fetch Rewards Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		B5F11C55B3498387BBF7BB28 /* Pods_Fetch_Rewards_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fetch_Rewards_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EDAE4A8A91413099F98C90 /* Pods-Fetch Rewards AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Rewards AssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-Fetch Rewards AssignmentTests/Pods-Fetch Rewards AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C50C53CCC209AFAB89E03876 /* Pods_Fetch_Rewards_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fetch_Rewards_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE941303188CFFCE7A6BB04B /* Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A82F30D434118AAA9482E4 /* Pods-Fetch Rewards AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Rewards AssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-Fetch Rewards AssignmentTests/Pods-Fetch Rewards AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		E36CDE990906C509FFD25F9F /* Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D89956254942B6002F7EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A274A1A7A88CD1105C3F8D /* Pods_Fetch_Rewards_Assignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D8996C254942B9002F7EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C28EE343CBDCC1DDC6EAD21 /* Pods_Fetch_Rewards_AssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D89977254942B9002F7EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84857CE43B966E1746F31376 /* Pods_Fetch_Rewards_Assignment_Fetch_Rewards_AssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D2B698968336C6245DBDA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E370883965165752A1EF6F4 /* Pods-Fetch Rewards Assignment.debug.xcconfig */,
+				B4D00DAD8ED0FE867D79C0A0 /* Pods-Fetch Rewards Assignment.release.xcconfig */,
+				CE941303188CFFCE7A6BB04B /* Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.debug.xcconfig */,
+				E36CDE990906C509FFD25F9F /* Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.release.xcconfig */,
+				C4EDAE4A8A91413099F98C90 /* Pods-Fetch Rewards AssignmentTests.debug.xcconfig */,
+				E0A82F30D434118AAA9482E4 /* Pods-Fetch Rewards AssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		306308B0257EC738003B3A30 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				306308B1257EC745003B3A30 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		30630930257ED999003B3A30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30630931257ED9A3003B3A30 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30D89950254942B6002F7EAC = {
+			isa = PBXGroup;
+			children = (
+				30D8995B254942B6002F7EAC /* Fetch Rewards Assignment */,
+				30D89972254942B9002F7EAC /* Fetch Rewards AssignmentTests */,
+				30D8997D254942B9002F7EAC /* Fetch Rewards AssignmentUITests */,
+				30D8995A254942B6002F7EAC /* Products */,
+				24D2B698968336C6245DBDA9 /* Pods */,
+				E98E4E9B2BE5D82015BDA5EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30D8995A254942B6002F7EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D89959254942B6002F7EAC /* Fetch Rewards Assignment.app */,
+				30D8996F254942B9002F7EAC /* Fetch Rewards AssignmentTests.xctest */,
+				30D8997A254942B9002F7EAC /* Fetch Rewards AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D8995B254942B6002F7EAC /* Fetch Rewards Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				30630930257ED999003B3A30 /* Model */,
+				306308B0257EC738003B3A30 /* Helper */,
+				30D8999A2549481F002F7EAC /* ViewModel */,
+				30D8999925494818002F7EAC /* Controllers */,
+				30D8998C254943BD002F7EAC /* Cells */,
+				30D8995C254942B6002F7EAC /* AppDelegate.swift */,
+				30D8995E254942B6002F7EAC /* SceneDelegate.swift */,
+				30D89962254942B6002F7EAC /* Main.storyboard */,
+				30D89965254942B8002F7EAC /* Assets.xcassets */,
+				30D89967254942B8002F7EAC /* LaunchScreen.storyboard */,
+				30D8996A254942B8002F7EAC /* Info.plist */,
+			);
+			path = "Fetch Rewards Assignment";
+			sourceTree = "<group>";
+		};
+		30D89972254942B9002F7EAC /* Fetch Rewards AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				30D89973254942B9002F7EAC /* Fetch_Rewards_AssignmentTests.swift */,
+				30D89975254942B9002F7EAC /* Info.plist */,
+			);
+			path = "Fetch Rewards AssignmentTests";
+			sourceTree = "<group>";
+		};
+		30D8997D254942B9002F7EAC /* Fetch Rewards AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30D8997E254942B9002F7EAC /* Fetch_Rewards_AssignmentUITests.swift */,
+				30D89980254942B9002F7EAC /* Info.plist */,
+			);
+			path = "Fetch Rewards AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		30D8998C254943BD002F7EAC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				30D8998D254943F8002F7EAC /* ListCollectionViewCell.swift */,
+				30D8998E254943F8002F7EAC /* ListCollectionViewCell.xib */,
+				30D899952549462D002F7EAC /* ListDetailCollectionViewCell.swift */,
+				30D899962549462D002F7EAC /* ListDetailCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		30D8999925494818002F7EAC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30D8999B2549483A002F7EAC /* ListViewController.swift */,
+				30D8999D2549484C002F7EAC /* ListDetailViewController.swift */,
+				30D8999F25494C61002F7EAC /* SplashViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		30D8999A2549481F002F7EAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30630886257EC59A003B3A30 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E98E4E9B2BE5D82015BDA5EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F11C55B3498387BBF7BB28 /* Pods_Fetch_Rewards_Assignment.framework */,
+				8338F5B50AA494EE5AC5BED8 /* Pods_Fetch_Rewards_Assignment_Fetch_Rewards_AssignmentUITests.framework */,
+				C50C53CCC209AFAB89E03876 /* Pods_Fetch_Rewards_AssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D89958254942B6002F7EAC /* Fetch Rewards Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D89983254942B9002F7EAC /* Build configuration list for PBXNativeTarget "Fetch Rewards Assignment" */;
+			buildPhases = (
+				16D6652E2B5D26FDB92F10FB /* [CP] Check Pods Manifest.lock */,
+				30D89955254942B6002F7EAC /* Sources */,
+				30D89956254942B6002F7EAC /* Frameworks */,
+				30D89957254942B6002F7EAC /* Resources */,
+				5DD3391E9EEA7371F9345A4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fetch Rewards Assignment";
+			productName = "Fetch Rewards Assignment";
+			productReference = 30D89959254942B6002F7EAC /* Fetch Rewards Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30D8996E254942B9002F7EAC /* Fetch Rewards AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D89986254942B9002F7EAC /* Build configuration list for PBXNativeTarget "Fetch Rewards AssignmentTests" */;
+			buildPhases = (
+				D732D7589AC6B8990D0E197C /* [CP] Check Pods Manifest.lock */,
+				30D8996B254942B9002F7EAC /* Sources */,
+				30D8996C254942B9002F7EAC /* Frameworks */,
+				30D8996D254942B9002F7EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D89971254942B9002F7EAC /* PBXTargetDependency */,
+			);
+			name = "Fetch Rewards AssignmentTests";
+			productName = "Fetch Rewards AssignmentTests";
+			productReference = 30D8996F254942B9002F7EAC /* Fetch Rewards AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30D89979254942B9002F7EAC /* Fetch Rewards AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D89989254942B9002F7EAC /* Build configuration list for PBXNativeTarget "Fetch Rewards AssignmentUITests" */;
+			buildPhases = (
+				B165A7368F89B840FBB6A8D9 /* [CP] Check Pods Manifest.lock */,
+				30D89976254942B9002F7EAC /* Sources */,
+				30D89977254942B9002F7EAC /* Frameworks */,
+				30D89978254942B9002F7EAC /* Resources */,
+				3B34F7A409DA45435D369315 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D8997C254942B9002F7EAC /* PBXTargetDependency */,
+			);
+			name = "Fetch Rewards AssignmentUITests";
+			productName = "Fetch Rewards AssignmentUITests";
+			productReference = 30D8997A254942B9002F7EAC /* Fetch Rewards AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D89951254942B6002F7EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Veg World";
+				TargetAttributes = {
+					30D89958254942B6002F7EAC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					30D8996E254942B9002F7EAC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 30D89958254942B6002F7EAC;
+					};
+					30D89979254942B9002F7EAC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 30D89958254942B6002F7EAC;
+					};
+				};
+			};
+			buildConfigurationList = 30D89954254942B6002F7EAC /* Build configuration list for PBXProject "Fetch Rewards Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D89950254942B6002F7EAC;
+			productRefGroup = 30D8995A254942B6002F7EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D89958254942B6002F7EAC /* Fetch Rewards Assignment */,
+				30D8996E254942B9002F7EAC /* Fetch Rewards AssignmentTests */,
+				30D89979254942B9002F7EAC /* Fetch Rewards AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D89957254942B6002F7EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D89969254942B8002F7EAC /* LaunchScreen.storyboard in Resources */,
+				30D89966254942B8002F7EAC /* Assets.xcassets in Resources */,
+				30D899982549462D002F7EAC /* ListDetailCollectionViewCell.xib in Resources */,
+				30D89990254943F8002F7EAC /* ListCollectionViewCell.xib in Resources */,
+				30D89964254942B6002F7EAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D8996D254942B9002F7EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D89978254942B9002F7EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16D6652E2B5D26FDB92F10FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fetch Rewards Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B34F7A409DA45435D369315 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD3391E9EEA7371F9345A4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fetch Rewards Assignment/Pods-Fetch Rewards Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fetch Rewards Assignment/Pods-Fetch Rewards Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fetch Rewards Assignment/Pods-Fetch Rewards Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B165A7368F89B840FBB6A8D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D732D7589AC6B8990D0E197C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fetch Rewards AssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D89955254942B6002F7EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30630932257ED9A3003B3A30 /* Item.swift in Sources */,
+				30D8999E2549484C002F7EAC /* ListDetailViewController.swift in Sources */,
+				30D8995D254942B6002F7EAC /* AppDelegate.swift in Sources */,
+				30D8999C2549483A002F7EAC /* ListViewController.swift in Sources */,
+				30D8998F254943F8002F7EAC /* ListCollectionViewCell.swift in Sources */,
+				30D8995F254942B6002F7EAC /* SceneDelegate.swift in Sources */,
+				30D899972549462D002F7EAC /* ListDetailCollectionViewCell.swift in Sources */,
+				30630887257EC59A003B3A30 /* ListViewModel.swift in Sources */,
+				30D899A025494C61002F7EAC /* SplashViewController.swift in Sources */,
+				306308B2257EC745003B3A30 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D8996B254942B9002F7EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D89974254942B9002F7EAC /* Fetch_Rewards_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D89976254942B9002F7EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D8997F254942B9002F7EAC /* Fetch_Rewards_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30D89971254942B9002F7EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D89958254942B6002F7EAC /* Fetch Rewards Assignment */;
+			targetProxy = 30D89970254942B9002F7EAC /* PBXContainerItemProxy */;
+		};
+		30D8997C254942B9002F7EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D89958254942B6002F7EAC /* Fetch Rewards Assignment */;
+			targetProxy = 30D8997B254942B9002F7EAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30D89962254942B6002F7EAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D89963254942B6002F7EAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30D89967254942B8002F7EAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D89968254942B8002F7EAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D89981254942B9002F7EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30D89982254942B9002F7EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D89984254942B9002F7EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E370883965165752A1EF6F4 /* Pods-Fetch Rewards Assignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fetch Rewards Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yapplabs.vegworld.Fetch-Rewards-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D89985254942B9002F7EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D00DAD8ED0FE867D79C0A0 /* Pods-Fetch Rewards Assignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fetch Rewards Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yapplabs.vegworld.Fetch-Rewards-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30D89987254942B9002F7EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EDAE4A8A91413099F98C90 /* Pods-Fetch Rewards AssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fetch Rewards AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yapplabs.vegworld.Fetch-Rewards-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Rewards Assignment.app/Fetch Rewards Assignment";
+			};
+			name = Debug;
+		};
+		30D89988254942B9002F7EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A82F30D434118AAA9482E4 /* Pods-Fetch Rewards AssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fetch Rewards AssignmentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yapplabs.vegworld.Fetch-Rewards-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Rewards Assignment.app/Fetch Rewards Assignment";
+			};
+			name = Release;
+		};
+		30D8998A254942B9002F7EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE941303188CFFCE7A6BB04B /* Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fetch Rewards AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yapplabs.vegworld.Fetch-Rewards-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Rewards Assignment";
+			};
+			name = Debug;
+		};
+		30D8998B254942B9002F7EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E36CDE990906C509FFD25F9F /* Pods-Fetch Rewards Assignment-Fetch Rewards AssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fetch Rewards AssignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yapplabs.vegworld.Fetch-Rewards-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fetch Rewards Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D89954254942B6002F7EAC /* Build configuration list for PBXProject "Fetch Rewards Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D89981254942B9002F7EAC /* Debug */,
+				30D89982254942B9002F7EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D89983254942B9002F7EAC /* Build configuration list for PBXNativeTarget "Fetch Rewards Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D89984254942B9002F7EAC /* Debug */,
+				30D89985254942B9002F7EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D89986254942B9002F7EAC /* Build configuration list for PBXNativeTarget "Fetch Rewards AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D89987254942B9002F7EAC /* Debug */,
+				30D89988254942B9002F7EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D89989254942B9002F7EAC /* Build configuration list for PBXNativeTarget "Fetch Rewards AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D8998A254942B9002F7EAC /* Debug */,
+				30D8998B254942B9002F7EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D89951254942B6002F7EAC /* Project object */;
+}

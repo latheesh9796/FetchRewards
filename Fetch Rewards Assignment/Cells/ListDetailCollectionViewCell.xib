@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ListDetailCollectionViewCell" id="gTV-IL-0wX" customClass="ListDetailCollectionViewCell" customModule="Fetch_Rewards_Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LeS-Su-v1C">
+                        <rect key="frame" x="0.0" y="0.0" width="437" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VtK-W7-lnU">
+                                <rect key="frame" x="8" y="8" width="4" height="34"/>
+                                <color key="backgroundColor" name="Orange"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="4" id="zLg-Uy-y9b"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVm-Yg-08a">
+                                <rect key="frame" x="28" y="13.5" width="48" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" name="Orange"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Extra Light Black"/>
+                        <constraints>
+                            <constraint firstItem="MVm-Yg-08a" firstAttribute="leading" secondItem="VtK-W7-lnU" secondAttribute="trailing" constant="16" id="Abs-cc-CNr"/>
+                            <constraint firstItem="VtK-W7-lnU" firstAttribute="leading" secondItem="LeS-Su-v1C" secondAttribute="leading" constant="8" id="EBZ-ze-dPX"/>
+                            <constraint firstItem="VtK-W7-lnU" firstAttribute="top" secondItem="LeS-Su-v1C" secondAttribute="top" constant="8" id="f8g-mF-MnP"/>
+                            <constraint firstAttribute="bottom" secondItem="VtK-W7-lnU" secondAttribute="bottom" constant="8" id="flw-Ui-QCs"/>
+                            <constraint firstItem="MVm-Yg-08a" firstAttribute="centerY" secondItem="LeS-Su-v1C" secondAttribute="centerY" id="iJQ-qN-glM"/>
+                            <constraint firstAttribute="height" constant="50" id="ynU-Pz-jFr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="LeS-Su-v1C" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="AbQ-Wl-NgM"/>
+                <constraint firstItem="LeS-Su-v1C" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZOu-sh-jLf"/>
+                <constraint firstAttribute="bottom" secondItem="LeS-Su-v1C" secondAttribute="bottom" id="zZp-hJ-Q8s"/>
+                <constraint firstAttribute="trailing" secondItem="LeS-Su-v1C" secondAttribute="trailing" id="zvK-w3-99w"/>
+            </constraints>
+            <size key="customSize" width="437" height="50"/>
+            <connections>
+                <outlet property="itemName" destination="MVm-Yg-08a" id="NwR-U0-jWB"/>
+                <outlet property="view" destination="LeS-Su-v1C" id="IX5-P0-RhQ"/>
+            </connections>
+            <point key="canvasLocation" x="418.11594202898556" y="130.58035714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Extra Light Black">
+            <color red="0.13333333333333333" green="0.14117647058823529" blue="0.16470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Orange">
+            <color red="0.99607843137254903" green="0.45098039215686275" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
