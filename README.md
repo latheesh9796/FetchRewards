@@ -8,17 +8,10 @@
 ### Runtime Screenshots
 | Screen 1      | Screen 2      |
 |------------|-------------|
-<img src="
-https://ibb.co/zZ5vrQJ" width="389" height="800" /> | <img src="
-https://ibb.co/T43DW7P" width="389" height="800" />
+<img src="https://github.com/latheesh9796/FetchRewards/blob/master/Screenshots/Screen%20Shot%202020-12-07%20at%206.30.43%20PM.png" width="389" height="800" /> | <img src="https://github.com/latheesh9796/FetchRewards/blob/master/Screenshots/Screen%20Shot%202020-12-07%20at%206.30.52%20PM.png" width="389" height="800" />
 
 ### Libraries Used
 -------------
 
 - Alamofire
     - Link - https://github.com/Alamofire/Alamofire
-
-### API
--------------
-
-- URL for API: https://fetch-hiring.s3.amazonaws.com/*******
