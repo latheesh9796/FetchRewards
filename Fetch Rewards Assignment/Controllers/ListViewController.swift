@@ -38,7 +38,7 @@ class ListViewController: UIViewController {
                 for item in items {
                     if(item.name != "" && item.name != nil){
                         var listData = self.listMap[item.listID] ?? []
-                        listData.append(item);
+                        listData.append(item)
                         self.listMap[item.listID] = listData
                     }
                 }

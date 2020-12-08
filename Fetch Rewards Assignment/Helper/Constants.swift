@@ -9,7 +9,6 @@
 import Foundation
 
 class Constants {
-    
     static let HOST_URL = "https://fetch-hiring.s3.amazonaws.com/"
     static let LIST_DATA_URL = HOST_URL + "hiring.json"
 }

@@ -18,7 +18,6 @@ class ListDetailCollectionViewCell: UICollectionViewCell {
     }
     
     func setupView(_ item: Item){
-//        viewWidth.constant = UIScreen.main.bounds.width
         itemName.text = item.name
         view.layer.cornerRadius = 8.0
     }
